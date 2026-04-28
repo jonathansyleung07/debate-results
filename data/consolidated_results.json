@@ -1,1 +1,10 @@
 
+{
+  "published_at": "2026-04-27T00:00:00Z",
+  "commit_message": "Initial placeholder",
+  "debate": {"debate_id": null, "resolution": "", "scope": "", "motion": "", "created_at": ""},
+  "snapshot": {"snapshot_id": null, "verdict": "NO VERDICT"},
+  "topics": [], "topic_details": {}, "verdict": {}, "audits": {},
+  "evidence_targets": {}, "snapshot_history": {"debate_id": null, "snapshot_count": 0, "snapshots": []},
+  "snapshot_diff": null, "modulation": {}, "posts": []
+}
