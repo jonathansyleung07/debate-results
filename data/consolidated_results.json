@@ -3,42 +3,42 @@
     "audit_schema_version": "v1.2.0",
     "budget_adequacy": {
       "topic_side": {
-        "topic_9cc3f334_AGAINST": {
+        "topic_06f852ef_AGAINST": {
           "k": 10,
           "mass_ratio": 0.0,
           "top_k_centrality_coverage": 0.0
         },
-        "topic_9cc3f334_FOR": {
+        "topic_06f852ef_FOR": {
           "k": 10,
           "mass_ratio": 0.0,
           "top_k_centrality_coverage": 0.0
         },
-        "topic_be50cec2_AGAINST": {
+        "topic_a774c934_AGAINST": {
           "k": 10,
           "mass_ratio": 0.0,
           "top_k_centrality_coverage": 0.0
         },
-        "topic_be50cec2_FOR": {
+        "topic_a774c934_FOR": {
           "k": 10,
           "mass_ratio": 0.0,
           "top_k_centrality_coverage": 0.0
         },
-        "topic_c33c2e64_AGAINST": {
+        "topic_bd840396_AGAINST": {
           "k": 10,
           "mass_ratio": 0.0,
           "top_k_centrality_coverage": 0.0
         },
-        "topic_c33c2e64_FOR": {
+        "topic_bd840396_FOR": {
           "k": 10,
           "mass_ratio": 0.0,
           "top_k_centrality_coverage": 0.0
         },
-        "topic_d3b7eba4_AGAINST": {
+        "topic_fea895bb_AGAINST": {
           "k": 10,
           "mass_ratio": 0.0,
           "top_k_centrality_coverage": 0.0
         },
-        "topic_d3b7eba4_FOR": {
+        "topic_fea895bb_FOR": {
           "k": 10,
           "mass_ratio": 0.0,
           "top_k_centrality_coverage": 0.0
@@ -153,28 +153,29 @@
           "2026-04-29T01": {
             "count": 3,
             "spike": false,
-            "z_score": 1.0
+            "z_score": 0.0
           },
           "2026-04-29T02": {
-            "count": 2,
+            "count": 3,
             "spike": false,
-            "z_score": -1.0
+            "z_score": 0.0
           }
         },
         "spike_detected": false,
         "topic_channel_counts": {
           "t1:public": 3,
           "t2:public": 1,
+          "topic_8b6d4122:public": 1,
           "topic_f3b75c03:public": 1
         },
         "version_id": "lsd-10-burst-v1.2.0"
       },
       "concentration_buckets": {
-        "top_10pct_share": 0.8,
-        "top_1pct_share": 0.8,
-        "top_5pct_share": 0.8
+        "top_10pct_share": 0.6667,
+        "top_1pct_share": 0.6667,
+        "top_5pct_share": 0.6667
       },
-      "participation_entropy": 0.5004,
+      "participation_entropy": 0.6365,
       "template_similarity_prevalence": {
         "bucket_count": 1,
         "near_duplicate_count": 0,
@@ -190,22 +191,22 @@
       "original_d": 0.0,
       "swapped_d": -0.0,
       "topic_deltas": {
-        "topic_9cc3f334": {
+        "topic_06f852ef": {
           "asymmetry_score": 0.0,
           "q_side_a_delta": 0.0,
           "q_side_b_delta": 0.0
         },
-        "topic_be50cec2": {
+        "topic_a774c934": {
           "asymmetry_score": 0.0,
           "q_side_a_delta": 0.0,
           "q_side_b_delta": 0.0
         },
-        "topic_c33c2e64": {
+        "topic_bd840396": {
           "asymmetry_score": 0.0,
           "q_side_a_delta": 0.0,
           "q_side_b_delta": 0.0
         },
-        "topic_d3b7eba4": {
+        "topic_fea895bb": {
           "asymmetry_score": 0.0,
           "q_side_a_delta": 0.0,
           "q_side_b_delta": 0.0
@@ -232,18 +233,18 @@
         "public": 1.0
       },
       "concentration_buckets": {
-        "top_10pct_share": 0.8,
-        "top_1pct_share": 0.8,
-        "top_5pct_share": 0.8
+        "top_10pct_share": 0.6667,
+        "top_1pct_share": 0.6667,
+        "top_5pct_share": 0.6667
       },
       "contributor_count": 2,
-      "participation_entropy": 0.5004,
-      "post_count": 5,
+      "participation_entropy": 0.6365,
+      "post_count": 6,
       "version_id": "lsd-2.3-v1.2.0"
     },
     "rarity_utilization": {
       "topic_side": {
-        "topic_9cc3f334_AGAINST": {
+        "topic_06f852ef_AGAINST": {
           "majority_vs_rarity_centrality_comparison": {
             "majority_avg_centrality": 0.0,
             "rarity_avg_centrality": 0.0
@@ -253,7 +254,7 @@
           "rarity_mass_contribution": 0.0,
           "rarity_utilization_rate": 0.0
         },
-        "topic_9cc3f334_FOR": {
+        "topic_06f852ef_FOR": {
           "majority_vs_rarity_centrality_comparison": {
             "majority_avg_centrality": 0.0,
             "rarity_avg_centrality": 0.0
@@ -263,7 +264,7 @@
           "rarity_mass_contribution": 0.0,
           "rarity_utilization_rate": 0.0
         },
-        "topic_be50cec2_AGAINST": {
+        "topic_a774c934_AGAINST": {
           "majority_vs_rarity_centrality_comparison": {
             "majority_avg_centrality": 0.0,
             "rarity_avg_centrality": 0.0
@@ -273,7 +274,7 @@
           "rarity_mass_contribution": 0.0,
           "rarity_utilization_rate": 0.0
         },
-        "topic_be50cec2_FOR": {
+        "topic_a774c934_FOR": {
           "majority_vs_rarity_centrality_comparison": {
             "majority_avg_centrality": 0.0,
             "rarity_avg_centrality": 0.0
@@ -283,7 +284,7 @@
           "rarity_mass_contribution": 0.0,
           "rarity_utilization_rate": 0.0
         },
-        "topic_c33c2e64_AGAINST": {
+        "topic_bd840396_AGAINST": {
           "majority_vs_rarity_centrality_comparison": {
             "majority_avg_centrality": 0.0,
             "rarity_avg_centrality": 0.0
@@ -293,7 +294,7 @@
           "rarity_mass_contribution": 0.0,
           "rarity_utilization_rate": 0.0
         },
-        "topic_c33c2e64_FOR": {
+        "topic_bd840396_FOR": {
           "majority_vs_rarity_centrality_comparison": {
             "majority_avg_centrality": 0.0,
             "rarity_avg_centrality": 0.0
@@ -303,7 +304,7 @@
           "rarity_mass_contribution": 0.0,
           "rarity_utilization_rate": 0.0
         },
-        "topic_d3b7eba4_AGAINST": {
+        "topic_fea895bb_AGAINST": {
           "majority_vs_rarity_centrality_comparison": {
             "majority_avg_centrality": 0.0,
             "rarity_avg_centrality": 0.0
@@ -313,7 +314,7 @@
           "rarity_mass_contribution": 0.0,
           "rarity_utilization_rate": 0.0
         },
-        "topic_d3b7eba4_FOR": {
+        "topic_fea895bb_FOR": {
           "majority_vs_rarity_centrality_comparison": {
             "majority_avg_centrality": 0.0,
             "rarity_avg_centrality": 0.0
@@ -340,7 +341,7 @@
       }
     },
     "selection_transparency": {
-      "topic_9cc3f334_AGAINST": {
+      "topic_06f852ef_AGAINST": {
         "formula_metadata": {
           "centrality": "centrality_i = log(1 + refs_i), capped at P95 within pool",
           "centrality_cap_percentile": 95,
@@ -382,7 +383,7 @@
           "rho": 0.2,
           "score_formula": "S_i = w1 * centrality_i_capped + w2 * log(1 + distinct_support_i_internal) + w3 * AU_quality_proxy_i",
           "seed": 42,
-          "timestamp": "2026-04-29T09:43:42.582015Z",
+          "timestamp": "2026-04-29T09:46:42.961107Z",
           "version": "lsd-11-v1.2.0",
           "version_id": "lsd-11-v1.2.0",
           "weights": {
@@ -396,9 +397,9 @@
           "total_arguments_selected": 0,
           "total_facts_selected": 0
         },
-        "topic_id": "topic_9cc3f334"
+        "topic_id": "topic_06f852ef"
       },
-      "topic_9cc3f334_FOR": {
+      "topic_06f852ef_FOR": {
         "formula_metadata": {
           "centrality": "centrality_i = log(1 + refs_i), capped at P95 within pool",
           "centrality_cap_percentile": 95,
@@ -440,7 +441,7 @@
           "rho": 0.2,
           "score_formula": "S_i = w1 * centrality_i_capped + w2 * log(1 + distinct_support_i_internal) + w3 * AU_quality_proxy_i",
           "seed": 42,
-          "timestamp": "2026-04-29T09:43:42.581999Z",
+          "timestamp": "2026-04-29T09:46:42.961091Z",
           "version": "lsd-11-v1.2.0",
           "version_id": "lsd-11-v1.2.0",
           "weights": {
@@ -454,9 +455,9 @@
           "total_arguments_selected": 0,
           "total_facts_selected": 0
         },
-        "topic_id": "topic_9cc3f334"
+        "topic_id": "topic_06f852ef"
       },
-      "topic_be50cec2_AGAINST": {
+      "topic_a774c934_AGAINST": {
         "formula_metadata": {
           "centrality": "centrality_i = log(1 + refs_i), capped at P95 within pool",
           "centrality_cap_percentile": 95,
@@ -498,7 +499,7 @@
           "rho": 0.2,
           "score_formula": "S_i = w1 * centrality_i_capped + w2 * log(1 + distinct_support_i_internal) + w3 * AU_quality_proxy_i",
           "seed": 42,
-          "timestamp": "2026-04-29T09:43:42.582045Z",
+          "timestamp": "2026-04-29T09:46:42.961039Z",
           "version": "lsd-11-v1.2.0",
           "version_id": "lsd-11-v1.2.0",
           "weights": {
@@ -512,9 +513,9 @@
           "total_arguments_selected": 0,
           "total_facts_selected": 0
         },
-        "topic_id": "topic_be50cec2"
+        "topic_id": "topic_a774c934"
       },
-      "topic_be50cec2_FOR": {
+      "topic_a774c934_FOR": {
         "formula_metadata": {
           "centrality": "centrality_i = log(1 + refs_i), capped at P95 within pool",
           "centrality_cap_percentile": 95,
@@ -556,7 +557,7 @@
           "rho": 0.2,
           "score_formula": "S_i = w1 * centrality_i_capped + w2 * log(1 + distinct_support_i_internal) + w3 * AU_quality_proxy_i",
           "seed": 42,
-          "timestamp": "2026-04-29T09:43:42.582030Z",
+          "timestamp": "2026-04-29T09:46:42.961018Z",
           "version": "lsd-11-v1.2.0",
           "version_id": "lsd-11-v1.2.0",
           "weights": {
@@ -570,9 +571,9 @@
           "total_arguments_selected": 0,
           "total_facts_selected": 0
         },
-        "topic_id": "topic_be50cec2"
+        "topic_id": "topic_a774c934"
       },
-      "topic_c33c2e64_AGAINST": {
+      "topic_bd840396_AGAINST": {
         "formula_metadata": {
           "centrality": "centrality_i = log(1 + refs_i), capped at P95 within pool",
           "centrality_cap_percentile": 95,
@@ -614,7 +615,7 @@
           "rho": 0.2,
           "score_formula": "S_i = w1 * centrality_i_capped + w2 * log(1 + distinct_support_i_internal) + w3 * AU_quality_proxy_i",
           "seed": 42,
-          "timestamp": "2026-04-29T09:43:42.581983Z",
+          "timestamp": "2026-04-29T09:46:42.960990Z",
           "version": "lsd-11-v1.2.0",
           "version_id": "lsd-11-v1.2.0",
           "weights": {
@@ -628,9 +629,9 @@
           "total_arguments_selected": 0,
           "total_facts_selected": 0
         },
-        "topic_id": "topic_c33c2e64"
+        "topic_id": "topic_bd840396"
       },
-      "topic_c33c2e64_FOR": {
+      "topic_bd840396_FOR": {
         "formula_metadata": {
           "centrality": "centrality_i = log(1 + refs_i), capped at P95 within pool",
           "centrality_cap_percentile": 95,
@@ -672,7 +673,7 @@
           "rho": 0.2,
           "score_formula": "S_i = w1 * centrality_i_capped + w2 * log(1 + distinct_support_i_internal) + w3 * AU_quality_proxy_i",
           "seed": 42,
-          "timestamp": "2026-04-29T09:43:42.581964Z",
+          "timestamp": "2026-04-29T09:46:42.960914Z",
           "version": "lsd-11-v1.2.0",
           "version_id": "lsd-11-v1.2.0",
           "weights": {
@@ -686,9 +687,9 @@
           "total_arguments_selected": 0,
           "total_facts_selected": 0
         },
-        "topic_id": "topic_c33c2e64"
+        "topic_id": "topic_bd840396"
       },
-      "topic_d3b7eba4_AGAINST": {
+      "topic_fea895bb_AGAINST": {
         "formula_metadata": {
           "centrality": "centrality_i = log(1 + refs_i), capped at P95 within pool",
           "centrality_cap_percentile": 95,
@@ -730,7 +731,7 @@
           "rho": 0.2,
           "score_formula": "S_i = w1 * centrality_i_capped + w2 * log(1 + distinct_support_i_internal) + w3 * AU_quality_proxy_i",
           "seed": 42,
-          "timestamp": "2026-04-29T09:43:42.581938Z",
+          "timestamp": "2026-04-29T09:46:42.961074Z",
           "version": "lsd-11-v1.2.0",
           "version_id": "lsd-11-v1.2.0",
           "weights": {
@@ -744,9 +745,9 @@
           "total_arguments_selected": 0,
           "total_facts_selected": 0
         },
-        "topic_id": "topic_d3b7eba4"
+        "topic_id": "topic_fea895bb"
       },
-      "topic_d3b7eba4_FOR": {
+      "topic_fea895bb_FOR": {
         "formula_metadata": {
           "centrality": "centrality_i = log(1 + refs_i), capped at P95 within pool",
           "centrality_cap_percentile": 95,
@@ -788,7 +789,7 @@
           "rho": 0.2,
           "score_formula": "S_i = w1 * centrality_i_capped + w2 * log(1 + distinct_support_i_internal) + w3 * AU_quality_proxy_i",
           "seed": 42,
-          "timestamp": "2026-04-29T09:43:42.581868Z",
+          "timestamp": "2026-04-29T09:46:42.961057Z",
           "version": "lsd-11-v1.2.0",
           "version_id": "lsd-11-v1.2.0",
           "weights": {
@@ -802,11 +803,11 @@
           "total_arguments_selected": 0,
           "total_facts_selected": 0
         },
-        "topic_id": "topic_d3b7eba4"
+        "topic_id": "topic_fea895bb"
       }
     },
-    "snapshot_id": "snap_20260429_024342_bf5a",
-    "timestamp": "2026-04-29T02:43:42.635145",
+    "snapshot_id": "snap_20260429_024643_efd6",
+    "timestamp": "2026-04-29T02:46:43.001618",
     "topic_concentration": {
       "gini_coefficient": 0.0,
       "mass_distribution_quantiles": {
@@ -1005,15 +1006,63 @@
           "topic_689d4a1d"
         ],
         "topic_id": "topic_be50cec2"
+      },
+      {
+        "coherence": 0.5,
+        "content_mass": 0.0,
+        "distinctness": 1.0,
+        "drift_score": 0.0,
+        "name": "Safety and Risk Management",
+        "operation": "unchanged",
+        "parent_topic_ids": [
+          "topic_529b33b9"
+        ],
+        "topic_id": "topic_bd840396"
+      },
+      {
+        "coherence": 0.5,
+        "content_mass": 0.0,
+        "distinctness": 1.0,
+        "drift_score": 0.0,
+        "name": "Economic Impact",
+        "operation": "unchanged",
+        "parent_topic_ids": [
+          "topic_f3b75c03"
+        ],
+        "topic_id": "topic_a774c934"
+      },
+      {
+        "coherence": 0.5,
+        "content_mass": 0.0,
+        "distinctness": 1.0,
+        "drift_score": 0.0,
+        "name": "Regulation and Governance",
+        "operation": "unchanged",
+        "parent_topic_ids": [
+          "topic_8b6d4122"
+        ],
+        "topic_id": "topic_fea895bb"
+      },
+      {
+        "coherence": 0.5,
+        "content_mass": 0.0,
+        "distinctness": 1.0,
+        "drift_score": 0.0,
+        "name": "Innovation and Progress",
+        "operation": "unchanged",
+        "parent_topic_ids": [
+          "topic_689d4a1d"
+        ],
+        "topic_id": "topic_06f852ef"
       }
     ],
     "verdict": "NO VERDICT"
   },
-  "commit_message": "Snapshot snap_20260429_024342_bf5a \u2014 post post_20a3add7e029 via email",
+  "commit_message": "Snapshot snap_20260429_024643_efd6 \u2014 post post_afdcfc3bcb52 via email",
   "debate": {
     "active_frame_id": "frame_b42cf8d2bb",
     "created_at": "2026-04-29T01:25:41.588493",
-    "current_snapshot_id": "snap_20260429_024342_bf5a",
+    "current_snapshot_id": "snap_20260429_024643_efd6",
     "debate_id": "debate_64baa889",
     "motion": "testing",
     "resolution": "testing",
@@ -1022,25 +1071,25 @@
   "decision_dossier": {
     "confidence": 0.0,
     "counterfactuals": {
-      "topic_9cc3f334": {
+      "topic_06f852ef": {
         "change_in_d": 0.0,
         "d_without_topic": 0.0,
         "new_leader": "AGAINST",
         "would_flip_verdict": false
       },
-      "topic_be50cec2": {
+      "topic_a774c934": {
         "change_in_d": 0.0,
         "d_without_topic": 0.0,
         "new_leader": "AGAINST",
         "would_flip_verdict": false
       },
-      "topic_c33c2e64": {
+      "topic_bd840396": {
         "change_in_d": 0.0,
         "d_without_topic": 0.0,
         "new_leader": "AGAINST",
         "would_flip_verdict": false
       },
-      "topic_d3b7eba4": {
+      "topic_fea895bb": {
         "change_in_d": 0.0,
         "d_without_topic": 0.0,
         "new_leader": "AGAINST",
@@ -1050,7 +1099,7 @@
     "decisive_arguments": [],
     "decisive_premises": [],
     "evidence_gaps": {
-      "topic_9cc3f334_AGAINST": {
+      "topic_06f852ef_AGAINST": {
         "f_all": 0.5,
         "f_supported_only": 0.5,
         "insufficiency_rate": 0.0,
@@ -1061,7 +1110,7 @@
         },
         "total_facts": 0
       },
-      "topic_9cc3f334_FOR": {
+      "topic_06f852ef_FOR": {
         "f_all": 0.5,
         "f_supported_only": 0.5,
         "insufficiency_rate": 0.0,
@@ -1072,7 +1121,7 @@
         },
         "total_facts": 0
       },
-      "topic_be50cec2_AGAINST": {
+      "topic_a774c934_AGAINST": {
         "f_all": 0.5,
         "f_supported_only": 0.5,
         "insufficiency_rate": 0.0,
@@ -1083,7 +1132,7 @@
         },
         "total_facts": 0
       },
-      "topic_be50cec2_FOR": {
+      "topic_a774c934_FOR": {
         "f_all": 0.5,
         "f_supported_only": 0.5,
         "insufficiency_rate": 0.0,
@@ -1094,7 +1143,7 @@
         },
         "total_facts": 0
       },
-      "topic_c33c2e64_AGAINST": {
+      "topic_bd840396_AGAINST": {
         "f_all": 0.5,
         "f_supported_only": 0.5,
         "insufficiency_rate": 0.0,
@@ -1105,7 +1154,7 @@
         },
         "total_facts": 0
       },
-      "topic_c33c2e64_FOR": {
+      "topic_bd840396_FOR": {
         "f_all": 0.5,
         "f_supported_only": 0.5,
         "insufficiency_rate": 0.0,
@@ -1116,7 +1165,7 @@
         },
         "total_facts": 0
       },
-      "topic_d3b7eba4_AGAINST": {
+      "topic_fea895bb_AGAINST": {
         "f_all": 0.5,
         "f_supported_only": 0.5,
         "insufficiency_rate": 0.0,
@@ -1127,7 +1176,7 @@
         },
         "total_facts": 0
       },
-      "topic_d3b7eba4_FOR": {
+      "topic_fea895bb_FOR": {
         "f_all": 0.5,
         "f_supported_only": 0.5,
         "insufficiency_rate": 0.0,
@@ -1201,22 +1250,22 @@
       "high_dispersion_normative_items": [],
       "insufficient_empirical_items": []
     },
-    "snapshot_id": "snap_20260429_024342_bf5a",
+    "snapshot_id": "snap_20260429_024643_efd6",
     "unselected_tail_summary": {
       "topics": {
-        "topic_9cc3f334": {
+        "topic_06f852ef": {
           "count": 0,
           "top_unselected": []
         },
-        "topic_be50cec2": {
+        "topic_a774c934": {
           "count": 0,
           "top_unselected": []
         },
-        "topic_c33c2e64": {
+        "topic_bd840396": {
           "count": 0,
           "top_unselected": []
         },
-        "topic_d3b7eba4": {
+        "topic_fea895bb": {
           "count": 0,
           "top_unselected": []
         }
@@ -1229,7 +1278,7 @@
     "debate_id": "debate_64baa889",
     "gaps": [],
     "note": "Evidence targets require DebateEngineV2 instantiation",
-    "snapshot_id": "snap_20260429_024342_bf5a",
+    "snapshot_id": "snap_20260429_024643_efd6",
     "targets": []
   },
   "frame": {
@@ -1279,9 +1328,9 @@
   },
   "frame_petitions": [],
   "modulation": {
-    "allowed_count": 3,
+    "allowed_count": 4,
     "blocked_count": 2,
-    "borderline_rate": 0.6,
+    "borderline_rate": 0.6667,
     "suppression_policy": {
       "affected_bucket_count": 2,
       "affected_buckets": [
@@ -1347,16 +1396,24 @@
       "side": "FOR",
       "timestamp": "2026-04-29T02:43:42.554094",
       "topic_id": "topic_f3b75c03"
+    },
+    {
+      "block_reason": null,
+      "modulation_outcome": "allowed",
+      "post_id": "post_afdcfc3bcb52",
+      "side": "AGAINST",
+      "timestamp": "2026-04-29T02:46:42.933507",
+      "topic_id": "topic_8b6d4122"
     }
   ],
-  "published_at": "2026-04-29T09:43:42.658460Z",
+  "published_at": "2026-04-29T09:46:43.022155Z",
   "snapshot": {
-    "allowed_count": 3,
+    "allowed_count": 4,
     "block_reasons": {
       "SPAM": 2
     },
     "blocked_count": 2,
-    "borderline_rate": 0.6,
+    "borderline_rate": 0.6667,
     "ci_d": [
       0.0,
       0.0
@@ -1373,7 +1430,7 @@
       "FOR",
       "AGAINST"
     ],
-    "snapshot_id": "snap_20260429_024342_bf5a",
+    "snapshot_id": "snap_20260429_024643_efd6",
     "status": "valid",
     "suppression_policy": {
       "affected_bucket_count": 2,
@@ -1399,9 +1456,9 @@
     },
     "template_name": "Standard Civility + PII Guard",
     "template_version": "1.0.0",
-    "timestamp": "2026-04-29T02:43:42.635145",
+    "timestamp": "2026-04-29T02:46:43.001618",
     "topic_scores": {
-      "topic_9cc3f334": {
+      "topic_06f852ef": {
         "AGAINST": {
           "coverage": 1.0,
           "coverage_iqr": 0.0,
@@ -1447,7 +1504,7 @@
             "SCOPE/DEFINITION": 0
           },
           "side": "AGAINST",
-          "topic_id": "topic_9cc3f334"
+          "topic_id": "topic_06f852ef"
         },
         "FOR": {
           "coverage": 1.0,
@@ -1494,10 +1551,10 @@
             "SCOPE/DEFINITION": 0
           },
           "side": "FOR",
-          "topic_id": "topic_9cc3f334"
+          "topic_id": "topic_06f852ef"
         }
       },
-      "topic_9cc3f334_AGAINST": {
+      "topic_06f852ef_AGAINST": {
         "coverage": 1.0,
         "coverage_iqr": 0.0,
         "drop_component_sensitivity": {
@@ -1542,9 +1599,9 @@
           "SCOPE/DEFINITION": 0
         },
         "side": "AGAINST",
-        "topic_id": "topic_9cc3f334"
+        "topic_id": "topic_06f852ef"
       },
-      "topic_9cc3f334_FOR": {
+      "topic_06f852ef_FOR": {
         "coverage": 1.0,
         "coverage_iqr": 0.0,
         "drop_component_sensitivity": {
@@ -1589,9 +1646,9 @@
           "SCOPE/DEFINITION": 0
         },
         "side": "FOR",
-        "topic_id": "topic_9cc3f334"
+        "topic_id": "topic_06f852ef"
       },
-      "topic_be50cec2": {
+      "topic_a774c934": {
         "AGAINST": {
           "coverage": 1.0,
           "coverage_iqr": 0.0,
@@ -1637,7 +1694,7 @@
             "SCOPE/DEFINITION": 0
           },
           "side": "AGAINST",
-          "topic_id": "topic_be50cec2"
+          "topic_id": "topic_a774c934"
         },
         "FOR": {
           "coverage": 1.0,
@@ -1684,10 +1741,10 @@
             "SCOPE/DEFINITION": 0
           },
           "side": "FOR",
-          "topic_id": "topic_be50cec2"
+          "topic_id": "topic_a774c934"
         }
       },
-      "topic_be50cec2_AGAINST": {
+      "topic_a774c934_AGAINST": {
         "coverage": 1.0,
         "coverage_iqr": 0.0,
         "drop_component_sensitivity": {
@@ -1732,9 +1789,9 @@
           "SCOPE/DEFINITION": 0
         },
         "side": "AGAINST",
-        "topic_id": "topic_be50cec2"
+        "topic_id": "topic_a774c934"
       },
-      "topic_be50cec2_FOR": {
+      "topic_a774c934_FOR": {
         "coverage": 1.0,
         "coverage_iqr": 0.0,
         "drop_component_sensitivity": {
@@ -1779,9 +1836,9 @@
           "SCOPE/DEFINITION": 0
         },
         "side": "FOR",
-        "topic_id": "topic_be50cec2"
+        "topic_id": "topic_a774c934"
       },
-      "topic_c33c2e64": {
+      "topic_bd840396": {
         "AGAINST": {
           "coverage": 1.0,
           "coverage_iqr": 0.0,
@@ -1827,7 +1884,7 @@
             "SCOPE/DEFINITION": 0
           },
           "side": "AGAINST",
-          "topic_id": "topic_c33c2e64"
+          "topic_id": "topic_bd840396"
         },
         "FOR": {
           "coverage": 1.0,
@@ -1874,10 +1931,10 @@
             "SCOPE/DEFINITION": 0
           },
           "side": "FOR",
-          "topic_id": "topic_c33c2e64"
+          "topic_id": "topic_bd840396"
         }
       },
-      "topic_c33c2e64_AGAINST": {
+      "topic_bd840396_AGAINST": {
         "coverage": 1.0,
         "coverage_iqr": 0.0,
         "drop_component_sensitivity": {
@@ -1922,9 +1979,9 @@
           "SCOPE/DEFINITION": 0
         },
         "side": "AGAINST",
-        "topic_id": "topic_c33c2e64"
+        "topic_id": "topic_bd840396"
       },
-      "topic_c33c2e64_FOR": {
+      "topic_bd840396_FOR": {
         "coverage": 1.0,
         "coverage_iqr": 0.0,
         "drop_component_sensitivity": {
@@ -1969,9 +2026,9 @@
           "SCOPE/DEFINITION": 0
         },
         "side": "FOR",
-        "topic_id": "topic_c33c2e64"
+        "topic_id": "topic_bd840396"
       },
-      "topic_d3b7eba4": {
+      "topic_fea895bb": {
         "AGAINST": {
           "coverage": 1.0,
           "coverage_iqr": 0.0,
@@ -2017,7 +2074,7 @@
             "SCOPE/DEFINITION": 0
           },
           "side": "AGAINST",
-          "topic_id": "topic_d3b7eba4"
+          "topic_id": "topic_fea895bb"
         },
         "FOR": {
           "coverage": 1.0,
@@ -2064,10 +2121,10 @@
             "SCOPE/DEFINITION": 0
           },
           "side": "FOR",
-          "topic_id": "topic_d3b7eba4"
+          "topic_id": "topic_fea895bb"
         }
       },
-      "topic_d3b7eba4_AGAINST": {
+      "topic_fea895bb_AGAINST": {
         "coverage": 1.0,
         "coverage_iqr": 0.0,
         "drop_component_sensitivity": {
@@ -2112,9 +2169,9 @@
           "SCOPE/DEFINITION": 0
         },
         "side": "AGAINST",
-        "topic_id": "topic_d3b7eba4"
+        "topic_id": "topic_fea895bb"
       },
-      "topic_d3b7eba4_FOR": {
+      "topic_fea895bb_FOR": {
         "coverage": 1.0,
         "coverage_iqr": 0.0,
         "drop_component_sensitivity": {
@@ -2159,21 +2216,28 @@
           "SCOPE/DEFINITION": 0
         },
         "side": "FOR",
-        "topic_id": "topic_d3b7eba4"
+        "topic_id": "topic_fea895bb"
       }
     },
     "trigger_type": "activity",
     "verdict": "NO VERDICT"
   },
   "snapshot_diff": {
-    "latest_snapshot_id": "snap_20260429_024342_bf5a",
+    "latest_snapshot_id": "snap_20260429_024643_efd6",
     "note": "Full diff available via debate engine",
-    "previous_snapshot_id": "snap_20260429_022109_34e3"
+    "previous_snapshot_id": "snap_20260429_024342_bf5a"
   },
   "snapshot_history": {
     "debate_id": "debate_64baa889",
-    "snapshot_count": 4,
+    "snapshot_count": 5,
     "snapshots": [
+      {
+        "confidence": 0.0,
+        "snapshot_id": "snap_20260429_024643_efd6",
+        "timestamp": "2026-04-29T02:46:43.001618",
+        "trigger_type": "activity",
+        "verdict": "NO VERDICT"
+      },
       {
         "confidence": 0.0,
         "snapshot_id": "snap_20260429_024342_bf5a",
@@ -2205,6 +2269,23 @@
     ]
   },
   "topic_details": {
+    "topic_06f852ef": {
+      "arguments": [],
+      "coherence": 0.5,
+      "distinctness": 1.0,
+      "drift_score": 0.0,
+      "facts": [],
+      "name": "Innovation and Progress",
+      "operation": "unchanged",
+      "parent_topic_ids": [
+        "topic_689d4a1d"
+      ],
+      "relevance": 0.0,
+      "scope": "Impact on technological advancement",
+      "summary_against": "",
+      "summary_for": "",
+      "topic_id": "topic_06f852ef"
+    },
     "topic_0f6c1440": {
       "arguments": [],
       "coherence": 0.5,
@@ -2352,6 +2433,40 @@
       "summary_for": "",
       "topic_id": "topic_9cc3f334"
     },
+    "topic_a774c934": {
+      "arguments": [],
+      "coherence": 0.5,
+      "distinctness": 1.0,
+      "drift_score": 0.0,
+      "facts": [],
+      "name": "Economic Impact",
+      "operation": "unchanged",
+      "parent_topic_ids": [
+        "topic_f3b75c03"
+      ],
+      "relevance": 0.0,
+      "scope": "Economic consequences and market effects",
+      "summary_against": "",
+      "summary_for": "",
+      "topic_id": "topic_a774c934"
+    },
+    "topic_bd840396": {
+      "arguments": [],
+      "coherence": 0.5,
+      "distinctness": 1.0,
+      "drift_score": 0.0,
+      "facts": [],
+      "name": "Safety and Risk Management",
+      "operation": "unchanged",
+      "parent_topic_ids": [
+        "topic_529b33b9"
+      ],
+      "relevance": 0.0,
+      "scope": "Analysis of potential harms and safety measures",
+      "summary_against": "",
+      "summary_for": "",
+      "topic_id": "topic_bd840396"
+    },
     "topic_be50cec2": {
       "arguments": [],
       "coherence": 0.5,
@@ -2468,6 +2583,23 @@
       "summary_against": "",
       "summary_for": "",
       "topic_id": "topic_f8c215d8"
+    },
+    "topic_fea895bb": {
+      "arguments": [],
+      "coherence": 0.5,
+      "distinctness": 1.0,
+      "drift_score": 0.0,
+      "facts": [],
+      "name": "Regulation and Governance",
+      "operation": "unchanged",
+      "parent_topic_ids": [
+        "topic_8b6d4122"
+      ],
+      "relevance": 0.0,
+      "scope": "Policy approaches and enforcement mechanisms",
+      "summary_against": "",
+      "summary_for": "",
+      "topic_id": "topic_fea895bb"
     }
   },
   "topics": [
@@ -2703,6 +2835,82 @@
       "relevance": 0.0,
       "scope": "Analysis of potential harms and safety measures",
       "scores": {
+        "AGAINST": {},
+        "FOR": {}
+      },
+      "summary_against": "",
+      "summary_for": "",
+      "topic_id": "topic_d3b7eba4"
+    },
+    {
+      "coherence": 0.5,
+      "distinctness": 1.0,
+      "drift_score": 0.0,
+      "name": "Economic Impact",
+      "operation": "unchanged",
+      "parent_topic_ids": [
+        "topic_f3b75c03"
+      ],
+      "relevance": 0.0,
+      "scope": "Economic consequences and market effects",
+      "scores": {
+        "AGAINST": {},
+        "FOR": {}
+      },
+      "summary_against": "",
+      "summary_for": "",
+      "topic_id": "topic_c33c2e64"
+    },
+    {
+      "coherence": 0.5,
+      "distinctness": 1.0,
+      "drift_score": 0.0,
+      "name": "Regulation and Governance",
+      "operation": "unchanged",
+      "parent_topic_ids": [
+        "topic_8b6d4122"
+      ],
+      "relevance": 0.0,
+      "scope": "Policy approaches and enforcement mechanisms",
+      "scores": {
+        "AGAINST": {},
+        "FOR": {}
+      },
+      "summary_against": "",
+      "summary_for": "",
+      "topic_id": "topic_9cc3f334"
+    },
+    {
+      "coherence": 0.5,
+      "distinctness": 1.0,
+      "drift_score": 0.0,
+      "name": "Innovation and Progress",
+      "operation": "unchanged",
+      "parent_topic_ids": [
+        "topic_689d4a1d"
+      ],
+      "relevance": 0.0,
+      "scope": "Impact on technological advancement",
+      "scores": {
+        "AGAINST": {},
+        "FOR": {}
+      },
+      "summary_against": "",
+      "summary_for": "",
+      "topic_id": "topic_be50cec2"
+    },
+    {
+      "coherence": 0.5,
+      "distinctness": 1.0,
+      "drift_score": 0.0,
+      "name": "Safety and Risk Management",
+      "operation": "unchanged",
+      "parent_topic_ids": [
+        "topic_529b33b9"
+      ],
+      "relevance": 0.0,
+      "scope": "Analysis of potential harms and safety measures",
+      "scores": {
         "AGAINST": {
           "coverage": 1.0,
           "coverage_iqr": 0.0,
@@ -2748,7 +2956,7 @@
             "SCOPE/DEFINITION": 0
           },
           "side": "AGAINST",
-          "topic_id": "topic_d3b7eba4"
+          "topic_id": "topic_bd840396"
         },
         "FOR": {
           "coverage": 1.0,
@@ -2795,12 +3003,12 @@
             "SCOPE/DEFINITION": 0
           },
           "side": "FOR",
-          "topic_id": "topic_d3b7eba4"
+          "topic_id": "topic_bd840396"
         }
       },
       "summary_against": "",
       "summary_for": "",
-      "topic_id": "topic_d3b7eba4"
+      "topic_id": "topic_bd840396"
     },
     {
       "coherence": 0.5,
@@ -2859,7 +3067,7 @@
             "SCOPE/DEFINITION": 0
           },
           "side": "AGAINST",
-          "topic_id": "topic_c33c2e64"
+          "topic_id": "topic_a774c934"
         },
         "FOR": {
           "coverage": 1.0,
@@ -2906,12 +3114,12 @@
             "SCOPE/DEFINITION": 0
           },
           "side": "FOR",
-          "topic_id": "topic_c33c2e64"
+          "topic_id": "topic_a774c934"
         }
       },
       "summary_against": "",
       "summary_for": "",
-      "topic_id": "topic_c33c2e64"
+      "topic_id": "topic_a774c934"
     },
     {
       "coherence": 0.5,
@@ -2970,7 +3178,7 @@
             "SCOPE/DEFINITION": 0
           },
           "side": "AGAINST",
-          "topic_id": "topic_9cc3f334"
+          "topic_id": "topic_fea895bb"
         },
         "FOR": {
           "coverage": 1.0,
@@ -3017,12 +3225,12 @@
             "SCOPE/DEFINITION": 0
           },
           "side": "FOR",
-          "topic_id": "topic_9cc3f334"
+          "topic_id": "topic_fea895bb"
         }
       },
       "summary_against": "",
       "summary_for": "",
-      "topic_id": "topic_9cc3f334"
+      "topic_id": "topic_fea895bb"
     },
     {
       "coherence": 0.5,
@@ -3081,7 +3289,7 @@
             "SCOPE/DEFINITION": 0
           },
           "side": "AGAINST",
-          "topic_id": "topic_be50cec2"
+          "topic_id": "topic_06f852ef"
         },
         "FOR": {
           "coverage": 1.0,
@@ -3128,12 +3336,12 @@
             "SCOPE/DEFINITION": 0
           },
           "side": "FOR",
-          "topic_id": "topic_be50cec2"
+          "topic_id": "topic_06f852ef"
         }
       },
       "summary_against": "",
       "summary_for": "",
-      "topic_id": "topic_be50cec2"
+      "topic_id": "topic_06f852ef"
     }
   ],
   "verdict": {
@@ -3198,7 +3406,7 @@
     "overall_against": 0.63,
     "overall_for": 0.63,
     "replicate_composition_metadata": {},
-    "snapshot_id": "snap_20260429_024342_bf5a",
+    "snapshot_id": "snap_20260429_024643_efd6",
     "topic_contributions": [
       {
         "contribution_to_d": 0.0,
@@ -3299,10 +3507,42 @@
       {
         "contribution_to_d": 0.0,
         "name": "Safety and Risk Management",
+        "q_against": 0.0,
+        "q_for": 0.0,
+        "relevance": 0.0,
+        "topic_id": "topic_d3b7eba4"
+      },
+      {
+        "contribution_to_d": 0.0,
+        "name": "Economic Impact",
+        "q_against": 0.0,
+        "q_for": 0.0,
+        "relevance": 0.0,
+        "topic_id": "topic_c33c2e64"
+      },
+      {
+        "contribution_to_d": 0.0,
+        "name": "Regulation and Governance",
+        "q_against": 0.0,
+        "q_for": 0.0,
+        "relevance": 0.0,
+        "topic_id": "topic_9cc3f334"
+      },
+      {
+        "contribution_to_d": 0.0,
+        "name": "Innovation and Progress",
+        "q_against": 0.0,
+        "q_for": 0.0,
+        "relevance": 0.0,
+        "topic_id": "topic_be50cec2"
+      },
+      {
+        "contribution_to_d": 0.0,
+        "name": "Safety and Risk Management",
         "q_against": 0.63,
         "q_for": 0.63,
         "relevance": 0.0,
-        "topic_id": "topic_d3b7eba4"
+        "topic_id": "topic_bd840396"
       },
       {
         "contribution_to_d": 0.0,
@@ -3310,7 +3550,7 @@
         "q_against": 0.63,
         "q_for": 0.63,
         "relevance": 0.0,
-        "topic_id": "topic_c33c2e64"
+        "topic_id": "topic_a774c934"
       },
       {
         "contribution_to_d": 0.0,
@@ -3318,7 +3558,7 @@
         "q_against": 0.63,
         "q_for": 0.63,
         "relevance": 0.0,
-        "topic_id": "topic_9cc3f334"
+        "topic_id": "topic_fea895bb"
       },
       {
         "contribution_to_d": 0.0,
@@ -3326,7 +3566,7 @@
         "q_against": 0.63,
         "q_for": 0.63,
         "relevance": 0.0,
-        "topic_id": "topic_be50cec2"
+        "topic_id": "topic_06f852ef"
       }
     ],
     "verdict": "NO VERDICT"
